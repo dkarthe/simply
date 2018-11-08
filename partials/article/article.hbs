@@ -15,6 +15,8 @@
     {{!-- Image post Format default or Image Normal --}}
     {{{block "simply_default_post"}}}
 
+    {{> "ad/ad-article-medium"}}
+
     <section class="u-container u-maxWidth740 u-relative">
         {{!-- Share post --}}
         {{> "article/article-share"}}
@@ -45,9 +47,6 @@
     {{!-- Post Actions (next and prev post, share social media, cout share in facebook) --}}
     {{> "article/post-action-sticky"}}
 {{/post}}
-
-{{!-- Ad --}}
-<div class="u-bgWhite">{{> "ad/ad-article-footer"}}</div>
 
 {{!-- Instgram Feed --}}
 {{> "widget/instagram-feed"}}
